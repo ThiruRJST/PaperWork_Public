@@ -1,0 +1,93 @@
+{
+    "BlockA": [
+
+        {
+            "in_channels":3,
+            "stream_1_1x1_filters":32,
+            "stream_2_1x1_filters":16,
+            "stream_2_3x3_filters":64,
+            "stream_3_1x1_filters":24,
+            "stream_3_3x3_filters":[64,128]
+        },
+    
+        {
+            "in_channels":224,
+            "red_stream_2_3x3_filters":32,
+            "red_stream_3_1x1_filters":64,
+            "red_stream_3_3x3_filters":[128,256]
+        },
+    
+        {
+            "in_channels":512,
+            "Bstream_1_1x1":32,
+            "Bstream_2_1x1":64,
+            "Bstream_2_3x3":[64,128],
+            "Bstream_3_1x1":128,
+            "Bstream_3_3x3":[64,128,128,256,256]
+        }
+
+    ],
+
+    "BlockB":[
+
+
+        {
+            "in_channels":416,
+            "stream_1_1x1_filters":64,
+            "stream_2_1x1_filters":16,
+            "stream_2_3x3_filters":64,
+            "stream_3_1x1_filters":64,
+            "stream_3_3x3_filters":[64,128]
+            },
+    
+            {
+            "in_channels":256,
+            "red_stream_2_3x3_filters":32,
+            "red_stream_3_1x1_filters":32,
+            "red_stream_3_3x3_filters":[128,256]
+            },
+            {
+            "in_channels":544,
+            "Bstream_1_1x1":32,
+            "Bstream_2_1x1":64,
+            "Bstream_2_3x3":[64,128],
+            "Bstream_3_1x1":128,
+            "Bstream_3_3x3":[64,128,128,256,256]  
+            }
+
+    ],
+
+    "BlockC":[
+
+
+        {
+            "in_channels":416,
+            "stream_1_1x1_filters":64,
+            "stream_2_1x1_filters":16,
+            "stream_2_3x3_filters":64,
+            "stream_3_1x1_filters":64,
+            "stream_3_3x3_filters":[64,128]
+            },
+    
+            {
+            "in_channels":256,
+            "red_stream_2_3x3_filters":32,
+            "red_stream_3_1x1_filters":32,
+            "red_stream_3_3x3_filters":[128,256]
+            },
+            {
+            "in_channels":544,
+            "Bstream_1_1x1":32,
+            "Bstream_2_1x1":64,
+            "Bstream_2_3x3":[64,128],
+            "Bstream_3_1x1":128,
+            "Bstream_3_3x3":[64,128,128,256,256]  
+            }
+
+
+
+
+
+
+    ]
+}
